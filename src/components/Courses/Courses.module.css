@@ -1,0 +1,9 @@
+main {
+    margin-top: 70px;
+}
+
+.search_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}

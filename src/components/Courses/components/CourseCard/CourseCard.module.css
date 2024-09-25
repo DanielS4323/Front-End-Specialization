@@ -1,0 +1,32 @@
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  height: 238px;
+  margin: 80px;
+  border-left: 7px solid #333e48;
+  box-shadow: 2px 0px 8px 0px #00000040;
+}
+
+.authors {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+}
+
+.info {
+  width: 400px;
+}
+
+.description {
+  width: 677px;
+  line-height: 20px;
+}
+
+.buttonGroup{
+  display: flex;
+  gap: 10px;
+}

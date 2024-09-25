@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.redirect {
+    text-align: center;
+}
+input {
+  height: 25px;
+}
+.error {
+  color: red;
+  margin: 10px auto;
+}
+.wrap {
+  margin: 20px auto;
+}

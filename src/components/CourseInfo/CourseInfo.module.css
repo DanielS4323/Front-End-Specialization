@@ -1,0 +1,47 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.backButton {
+  align-self: flex-end;
+}
+
+.courseInfo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.description {
+  border-right: 1px solid #cfcfcf;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.info {
+  width: 100%;
+  list-style-type: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.info li {
+  margin: 20px;
+}
+
+.info li strong {
+  display: inline-block;
+  width: 140px;
+}
+
+span {
+  padding-left: 3px;
+  font-weight: bold;
+}

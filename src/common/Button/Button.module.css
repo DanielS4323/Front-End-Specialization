@@ -1,0 +1,36 @@
+.button {
+  background: #007298;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  height: 50px;
+  padding: 13px 36px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.button:hover {
+  background-color:#228bae;
+}
+
+
+.extraS {
+  width: 61px;
+}
+.small {
+  width: 140px;
+}
+
+.medium {
+  width: 183px;
+}
+.large {
+  width: 233px;
+}
+
+.extraL {
+  width: 268px;
+}

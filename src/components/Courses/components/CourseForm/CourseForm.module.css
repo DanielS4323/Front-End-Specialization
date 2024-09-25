@@ -1,0 +1,31 @@
+.courseForm {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.courseErrors {
+  color: red;
+}
+
+.durationClock {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.cancelButton {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.authorsSection {
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+}
